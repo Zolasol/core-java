@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class LocalVar {
 
     public static void main(String[] args) {
-
+//System.out.println("for git branch test in my-better-branch")
         List<String> list = Arrays.asList("a", "b", "c");
         String result = list.stream()
                 .map(x -> x.toUpperCase())
